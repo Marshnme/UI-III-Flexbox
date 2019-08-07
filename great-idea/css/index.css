@@ -53,7 +53,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+  
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -87,12 +87,12 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 
-	border:1px solid black !important;
+	/* border:1px solid black !important; */
 }
 
 html, body {
-	height: 100%;
-	width:100%;
+	/* height:100%;
+	width:100%; */
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -120,12 +120,16 @@ h1, h2, h3, h4, h5 {
 	
 
 } 
-
+header{
+	display:flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
 
 nav {
 	display:flex;
 	width: 80vw;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	margin-top:20px;
 	
@@ -144,7 +148,7 @@ header nav a{
 	font-size:6rem;
 	text-align: center;
 	align-items: center;
-	
+	margin-left:100px;
 }
 
 .main{
@@ -159,69 +163,83 @@ header nav a{
 	border: 1px solid black;
 	text-decoration: none;
 	padding:5px 50px;
-	
 	font-family: 'Lacquer', sans-serif;
+	
 	
 
 }
 
 .main .button-place{
-	height:10px;
+	display:flex;
+	flex-flow:row no-wrap;
+
 }
 
 
  .feat{
 	border-top: 1px solid black;
 	display:flex;
-}
- .pro{
-	 
+	width:80vw;
+	justify-content: space-between;
+	margin-top:100px;
+	margin-bottom:40px;
+	padding-top:50px;
 }
  .feat .one{
+	margin-right:30px;
+ }
+ .pro{
+	 display:flex;
+	 width:80vw;
+	 margin-top:40px;
+}
+.pro .one, .pro .two{
+	margin-right:40px;
+}
 
-	
-	
-}
- .feat .two{
-	
-}
-
-.pro .three{
-	
-}
-.pro .four{
-	
-}
-.pro .five{
-	
+.img-middle{
+	display:flex;
+	flex-flow:row wrap;
+	width:80vw;
 }
 .middle-img{
-	
+	width:100vw;
 }
 
 h2{
 	font-size:20px;
 }
-
-footer p{
-	text-align:center;
+footer{
+	border-top:1px solid black;
+	display:flex;
+	flex-flow:row wrap;
+	width:80vw;
+	margin-top:50px;
+	padding-top:60px;
+	
+}
+.copyright{
+	width: 80vw;
 	margin-bottom:200px;
 	margin-top:100px;
+	display:flex;
+	 flex-flow:row wrap; 
+	justify-content: center; 
 }
-footer address{
-	
-	border-top:1px solid black;
-}
+
 
 .info{
 
 }
 
-footer address div .pushaway{
-	
+footer address div.info span.pushaway{
+	display:flex;
+	margin-top:20px;
+
 	
 	
 }
+
 
 
 /* FLEXBOX REFRACTOR */
