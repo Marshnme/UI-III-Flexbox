@@ -112,42 +112,50 @@ h1, h2, h3, h4, h5 {
 
 
 /*  more sutff*/
-.container{
+  .container{ 
+	justify-content: center;
 	display:flex;
 	flex-flow: row wrap;
 	
-}
+	
+
+} 
 
 
 nav {
 	display:flex;
-	width: 100vw;
+	width: 80vw;
 	justify-content: space-around;
 	align-items: center;
 	margin-top:20px;
+	
 }
 
 header nav a{
 	text-decoration:none;
 	color:grey;
 	font-family: 'Lacquer', sans-serif;
+	 
 }
 
 
 .big{
-	/* font-size:6rem; */
-
+	display:flex;
+	font-size:6rem;
+	text-align: center;
+	align-items: center;
+	
 }
 
 .main{
-	
-	
-	
-
-	
+	display:flex ;
+	justify-content: space-around ;
+	width:80vw;	
+	margin-top:100px;
 }
 
-.main a.button{
+.main .button-place a.button{
+	
 	border: 1px solid black;
 	text-decoration: none;
 	padding:5px 50px;
@@ -156,6 +164,11 @@ header nav a{
 	
 
 }
+
+.main .button-place{
+	height:10px;
+}
+
 
  .feat{
 	border-top: 1px solid black;
