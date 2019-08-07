@@ -64,3 +64,155 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+
+	border:1px solid black !important;
+}
+
+html, body {
+	height: 100%;
+	width:100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+
+
+
+
+
+
+/*  more sutff*/
+.container{
+	display:flex;
+	flex-flow: row wrap;
+	
+}
+
+
+nav {
+	display:flex;
+	width: 100vw;
+	justify-content: space-around;
+	align-items: center;
+	margin-top:20px;
+}
+
+header nav a{
+	text-decoration:none;
+	color:grey;
+	font-family: 'Lacquer', sans-serif;
+}
+
+
+.big{
+	/* font-size:6rem; */
+
+}
+
+.main{
+	
+	
+	
+
+	
+}
+
+.main a.button{
+	border: 1px solid black;
+	text-decoration: none;
+	padding:5px 50px;
+	
+	font-family: 'Lacquer', sans-serif;
+	
+
+}
+
+ .feat{
+	border-top: 1px solid black;
+	display:flex;
+}
+ .pro{
+	 
+}
+ .feat .one{
+
+	
+	
+}
+ .feat .two{
+	
+}
+
+.pro .three{
+	
+}
+.pro .four{
+	
+}
+.pro .five{
+	
+}
+.middle-img{
+	
+}
+
+h2{
+	font-size:20px;
+}
+
+footer p{
+	text-align:center;
+	margin-bottom:200px;
+	margin-top:100px;
+}
+footer address{
+	
+	border-top:1px solid black;
+}
+
+.info{
+
+}
+
+footer address div .pushaway{
+	
+	
+	
+}
+
+
+/* FLEXBOX REFRACTOR */
+
+
+
+
