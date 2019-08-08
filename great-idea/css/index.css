@@ -104,29 +104,24 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* INDEX.HTML */
 
-
-
-
-
-
-
-/*  more sutff*/
   .container{ 
 	justify-content: center;
 	display:flex;
 	flex-flow: row wrap;
 	
 	
+	
 
 } 
-header{
+.container header{
 	display:flex;
 	justify-content: center;
 	flex-flow: row wrap;
 }
 
-nav {
+.container nav {
 	display:flex;
 	width: 80vw;
 	justify-content: space-between;
@@ -135,7 +130,7 @@ nav {
 	
 }
 
-header nav a{
+.container header nav a{
 	text-decoration:none;
 	color:grey;
 	font-family: 'Lacquer', sans-serif;
@@ -206,10 +201,10 @@ header nav a{
 	width:100vw;
 }
 
-h2{
+.container h2{
 	font-size:20px;
 }
-footer{
+.container footer{
 	border-top:1px solid black;
 	display:flex;
 	flex-flow:row wrap;
@@ -220,7 +215,7 @@ footer{
 }
 .copyright{
 	width: 80vw;
-	margin-bottom:200px;
+	margin-bottom:100px;
 	margin-top:100px;
 	display:flex;
 	 flex-flow:row wrap; 
@@ -232,7 +227,7 @@ footer{
 
 }
 
-footer address div.info span.pushaway{
+.container footer address div.info span.pushaway{
 	display:flex;
 	margin-top:20px;
 
@@ -242,7 +237,131 @@ footer address div.info span.pushaway{
 
 
 
-/* FLEXBOX REFRACTOR */
+/* SERVICES PAGE */
+.parent{ 
+	justify-content: center;
+	display:flex;
+	flex-flow: row wrap;
+	width:100vw;
+}
+
+.parent .s-header{
+	
+	display:flex;
+	flex-flow: row wrap;
+	width:90vw;
+	margin-top:25px;
+	margin-bottom:50px;
+}
+.parent .s-header nav{
+	display:flex;
+	justify-content: space-between;
+	width:90vw;
+	align-items: center;
+	margin-bottom:20px;
+	
+}
+.parent nav a{
+	width:90vw;
+	text-decoration: none;
+	color:grey;
+	font-family: 'Lacquer', sans-serif;
+}
+
+.parent .header-img{
+	display: flex;
+	flex-flow: row wrap;
+	
+}
+
+.parent .header-img .services-header-img{
+	width:90vw;
+	margin-bottom:30px;
+}
+
+.parent .s-section{
+	display:flex;
+	flex-flow:row wrap;
+	width:90vw;
+	justify-content: space-between;
+	border-top: 1px solid black;
+	padding-top:30px;
+	
+	
+	
+}
+.parent .s-section div{
+	width:47%;
+	margin-top:25px;
+	border:1px solid black;
+	background: lightgrey;
+	padding:30px;
+}
+
+
+
+.parent h1{
+	font-size:30px; 
+}
+.parent h2{
+	font-size:20px;
+}
+
+.parent .s-section-two{
+	display:flex;
+	flex-flow:row wrap;
+	width:90vw;
+	justify-content: space-between;
+	margin-top:50px;
+	border-top:1px solid black;
+	padding-top:40px;
+}
+
+.parent .s-section-two div{
+	width:47%;
+	
+}
+.parent  .s-copyright-holder{
+	display:flex;
+	width:100vw;
+	justify-content: center;
+}
+.parent .s-copyright-holder .s-copyright {
+	margin-top:80px;
+	margin-bottom:20px;
+	width:90vw;
+	text-align: center
+}
+
+.parent .s-section .s-button{
+	display:flex;
+	width:40%;
+	height:25%;
+	text-decoration: none;
+	margin-top:20px;
+	margin-bottom:10px;
+	border:1px solid black;
+	background:white;
+	justify-content: center;
+	align-items:center;
+	color:black;
+	border-radius: 10px;
+	
+
+}
+
+.parent .s-section-two ul{
+
+	list-style-type: square;
+	margin-top:20px;
+	
+	
+}
+.parent .s-section-two ul li {
+	margin-top:20px;
+	margin-left:20px;
+}
+
 
 
 
