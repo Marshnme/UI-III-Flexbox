@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5 {
 
 /* INDEX.HTML */
 
-  .container{ 
+ .container{ 
 	justify-content: center;
 	display:flex;
 	flex-flow: row wrap;
@@ -133,8 +133,7 @@ h1, h2, h3, h4, h5 {
 .container header nav a{
 	text-decoration:none;
 	color:grey;
-	font-family: 'Lacquer', sans-serif;
-	 
+	font-family: 'Lacquer', sans-serif;	 
 }
 
 
@@ -242,7 +241,7 @@ h1, h2, h3, h4, h5 {
 	justify-content: center;
 	display:flex;
 	flex-flow: row wrap;
-	width:100vw;
+	
 }
 
 .parent .s-header{
@@ -336,7 +335,7 @@ h1, h2, h3, h4, h5 {
 .parent .s-section .s-button{
 	display:flex;
 	width:40%;
-	height:25%;
+	height:20%;
 	text-decoration: none;
 	margin-top:20px;
 	margin-bottom:10px;
